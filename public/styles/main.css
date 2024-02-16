@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    max-width: 1000px;
+    font-family: "Lato", "Calibri";
+    color: #3c3744;
+    margin: 0 auto;
+}
+
+#hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body{
+    background-color: #fbfff1;
+}
+
+main{
+    padding: 20px;
+}
+
+h1, h2, h3, h4{
+    font-family: "Playfair Display";
+    text-align: center;
+    padding: 5px;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+#logo{
+    width: 65%;
+    height: 65%;
+}
+
+#logo-link:hover{
+    background-color: #c200fb;
+}
+
+.nav-bar a{
+    font-size: 1.2em;
+    color: #fbfff1;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav-bar a:hover{
+    background-color: #fbfff1;
+    color: #c200fb;
+}
+
+footer{
+    background-color: #c200fb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    border-radius: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #c200fb;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    border-radius: 10px;
+}
+
+footer p{
+    color: #fbfff1;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fbfff1;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer a:hover{
+    background-color: #fbfff1;
+    color: #c200fb;
+}
+
+.creative-works{
+    display: flex;
+}
