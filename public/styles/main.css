@@ -93,3 +93,8 @@ footer a:hover{
 .creative-works{
     display: flex;
 }
+
+div img{
+    width: 85%;
+    height: 85%;
+}
