@@ -22,4 +22,19 @@ router.get('/script', (req, res) => {
     res.sendFile(filePath);
 });
 
+router.get('/terribly-lovely-day', (req, res) => {
+    const filePath = path.resolve(__dirname, "../public/terribly-lovely-day.html")
+    res.sendFile(filePath);
+});
+
+router.get('/terribly-lovely-day-script', (req, res) => {
+    const filePath = path.resolve(__dirname, "../public/terribly-lovely-day-script.html")
+    res.sendFile(filePath);
+});
+
+router.get('/glass', (req, res) => {
+    const filePath = path.resolve(__dirname, "../public/shattered-glass.html")
+    res.sendFile(filePath);
+});
+
 module.exports = router;

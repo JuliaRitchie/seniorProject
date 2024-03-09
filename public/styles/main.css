@@ -29,6 +29,10 @@ h1, h2, h3, h4{
     padding: 5px;
 }
 
+footer p{
+    font-family: "Playfair Display";
+}
+
 h1{
     font-size: 1.8em;
 }
@@ -41,6 +45,7 @@ h1{
     text-decoration: none;
     margin: 5px;
     padding: 5px;
+    font-family: "Playfair Display";
     /* border-radius: 10px; */
 }
 
@@ -81,6 +86,7 @@ footer a{
     text-decoration: none;
     color: #E7E7E7;
     padding: 5px;
+    font-family: "Playfair Display";
 }
 
 footer a:hover{
@@ -112,11 +118,21 @@ div a{
 
 #hero-text{
     position: absolute;
-    top: 48%;
-    left: 40%;
+    top: 49%;
+    left: 41%;
     bottom: 0.25%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
+}
+
+iframe{
+    width: 75%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+.hero-box{
+    background-color: #732C02;
 }
 
 #mirror{
