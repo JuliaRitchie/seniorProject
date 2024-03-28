@@ -175,3 +175,21 @@ iframe{
 #creative-works{
     font-size: 1.5em;
 }
+
+#julia{
+    max-width: 200px;
+    padding: 10px;
+}
+
+#about-me-txt {
+    width: 50%;
+    padding: 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
